@@ -723,7 +723,7 @@ virtual desktops)
                 <img src={darkMode ? LetterD2 : LetterD1} alt="C" />
               </div>
             </div>
-            <p>Copy text or file...</p>
+            <p>Select the address bar</p>
           </div>
 
 
@@ -731,27 +731,251 @@ virtual desktops)
                 <div className="shortcut-keys">
                     <div className="key"><img src={darkMode ? Ctrl2 : Ctrl1}  alt="" /></div>
                     <div className="plus">+</div>
-                    <div className="key"><img src={LetterD1} alt="" /></div>
+                    <div className="key"><img src={darkMode ? LetterN2 : LetterN1} alt="" /></div>
                 </div>
-                <p>DELETE the selected item and move 
-it to the Recycle Bin</p>
+                <p>Open a new window</p>
             </div>
 
             <div className="shortcut-card">
                 <div className="shortcut-keys">
-                    <div className="key"><img src={Shift1} alt="" /></div>
+                    <div className="key"><img src={darkMode ? Shift2 : Shift1} alt="" /></div>
                     <div className="plus">+</div>
-                    <div className="key"><img src={LetterD1} alt="" /></div>
+                    <div className="key"><img src={darkMode ? LetterW2 : LetterW1} alt="" /></div>
                 </div>
-                <p>Delete the selected item without 
-moving it to the Recycle Bin first</p>
+                <p>Close the current window</p>
             </div>
 
             <div className="shortcut-card">
                 <div className="shortcut-keys">
                     <div className="key"><img src={darkMode ? Ctrl2 : Ctrl1}  alt="" /></div>
                     <div className="plus">+</div>
-                    <div className="key"><img src={LetterR1} alt="" /></div>
+                    <div className="key"><img src={darkMode ? Shift2 : Shift1} alt="" /></div>
+                    <div className="plus">+</div>
+                    <div className="key"><img src={darkMode ? LetterN2 : LetterN1} alt="" /></div>
+                </div>
+                <p>Create a new folder</p>
+            </div>
+
+            
+            <div className="shortcut-card">
+                <div className="shortcut-keys">
+                    <div className="key"><img src={darkMode ? Ctrl2 : Ctrl1}  alt="" /></div>
+                    <div className="plus">+</div>
+                    <div className="key"><img src={darkMode? LetterP2 : LetterP1} alt="" /></div>
+                </div>
+                <p>Display the preview pane</p>
+            </div>   
+
+            <div className="shortcut-card">
+            <div className="shortcut-keys">
+              <div className="key">
+                <img src={darkMode ? Alt2 : Alt1} alt="C" />
+              </div>
+              <div className="plus">+</div>
+              <div className="key">
+                <img src={darkMode ? Enter2 : Enter1} alt="Ctrl" />
+              </div>
+            </div>
+            <p>Open the Properties dialog box for 
+the selected item</p>
+          </div>
+            <div className="shortcut-card">
+                <div className="shortcut-keys">
+                    <div className="key"><img src={darkMode ? KeyF22 : KeyF2}  alt="" /></div>
+                </div>
+                <p>Rename</p>
+            </div>
+
+            <div className="shortcut-card">
+                <div className="shortcut-keys">
+                    <div className="key"><img src={darkMode ? KeyF52 : KeyF5}  alt="" /></div>
+                </div>
+                <p>Refresh</p>
+            </div>
+        </div>
+
+        <h3>Web Browser Shortcuts:</h3>
+
+       <div className="shortcut-grid ">
+            <div className="shortcut-card">
+            <div className="shortcut-keys">
+              <div className="key">
+                <img src={darkMode ? Ctrl2 : Ctrl1} alt="Ctrl" />
+              </div>
+              <div className="plus">+</div>
+              <div className="key">
+                <img src={darkMode ? LetterN2 : LetterN1} alt="C" />
+              </div>
+            </div>
+            <p>Open a new window</p>
+          </div>
+
+
+            <div className="shortcut-card">
+                <div className="shortcut-keys">
+                    <div className="key"><img src={darkMode ? Ctrl2 : Ctrl1}  alt="" /></div>
+                    <div className="plus">+</div>
+              <div className="key">
+                <img src={darkMode ? Shift2 : Shift1} alt="C" />
+              </div>
+              <div className="plus">+</div>
+              <div className="key">
+                <img src={darkMode ? LetterN2 : LetterN1} alt="C" />
+              </div>
+                </div>
+                <p>Open a new private window</p>
+            </div>
+
+            <div className="shortcut-card">
+                <div className="shortcut-keys">
+                    <div className="key"><img src={darkMode ? Ctrl2 : Ctrl1}  alt="" /></div>
+                    <div className="plus">+</div>
+                    <div className="key"><img src={darkMode ? LetterW2 : LetterW1} alt="" /></div>
+                </div>
+                <p>Close the current window</p>
+            </div>
+
+<div className="shortcut-card">
+                <div className="shortcut-keys">
+                    <div className="key"><img src={darkMode ? Ctrl2 : Ctrl1}  alt="" /></div>
+                    <div className="plus">+</div>
+              <div className="key">
+                <img src={darkMode ? Shift2 : Shift1} alt="C" />
+              </div>
+              <div className="plus">+</div>
+              <div className="key">
+                <img src={darkMode ? LetterW2 : LetterW1} alt="C" />
+              </div>
+                </div>
+                <p>Close the current window</p>
+            </div>
+
+            <div className="shortcut-card">
+                <div className="shortcut-keys">
+                    <div className="key"><img src={darkMode ? Ctrl2 : Ctrl1}  alt="" /></div>
+                    <div className="plus">+</div>
+                    <div className="key"><img src={darkMode ? LetterT2 : LetterT1} alt="" /></div>
+                </div>
+                <p>Open a new tab</p>
+            </div>
+
+            <div className="shortcut-card">
+                <div className="shortcut-keys">
+                    <div className="key"><img src={darkMode ? Ctrl2 : Ctrl1}  alt="" /></div>
+                    <div className="plus">+</div>
+                    <div className="key"><img src={darkMode ? Tab2 : Tab1} alt="" /></div>
+                </div>
+                <p>Switch to the previous tab
+</p>
+            </div>
+
+            <div className="shortcut-card">
+                <div className="shortcut-keys">
+                    <div className="key"><img src={darkMode ? Ctrl2 : Ctrl1}  alt="" /></div>
+                    <div className="plus">+</div>
+              <div className="key">
+                <img src={darkMode ? Shift2 : Shift1} alt="C" />
+              </div>
+              <div className="plus">+</div>
+              <div className="key">
+                <img src={darkMode ? LetterT2 : LetterT1} alt="C" />
+              </div>
+                </div>
+                <p>Reopen the last closed tab</p>
+            </div>
+
+            <div className="shortcut-card">
+                <div className="shortcut-keys">
+                    <div className="key"><img src={darkMode ? Ctrl2 : Ctrl1}  alt="" /></div>
+                    <div className="plus">+</div>
+              <div className="key">
+                <img src={darkMode ? Shift2 : Shift1} alt="C" />
+              </div>
+              <div className="plus">+</div>
+              <div className="key">
+                <img src={darkMode ? Tab2 : Tab1} alt="C" />
+              </div>
+                </div>
+                <p>Switch to the previous tab
+</p>
+            </div>
+
+            
+
+            <div className="shortcut-card">
+                <div className="shortcut-keys">
+                    <div className="key"><img src={darkMode ? Ctrl2 : Ctrl1}  alt="" /></div>
+                    <div className="plus">+</div>
+                </div>
+                <p>Switch to a specific tab (numbered 1–8)</p>
+            </div>
+
+            <div className="shortcut-card">
+                <div className="shortcut-keys">
+                    <div className="key"><img src={darkMode ? Alt2 : Alt1}  alt="" /></div>
+                    <div className="plus">+</div>
+                    <div className="key"><img src={darkMode ? Tab2 : Tab1} alt="" /></div>
+                </div>
+                <p>Switch to the next tab</p>
+            </div>
+
+            <div className="shortcut-card">
+                <div className="shortcut-keys">
+                    <div className="key"><img src={darkMode ? Alt2 : Alt1}  alt="" /></div>
+                    <div className="plus">+</div>
+                    <div className="key"><img src={darkMode ? Left2 : Left1} alt="" /></div>
+                </div>
+                <p>Go forward</p>
+            </div>
+
+            <div className="shortcut-card">
+                <div className="shortcut-keys">
+                    <div className="key"><img src={darkMode ? Alt2 : Alt1}  alt="" /></div>
+                    <div className="plus">+</div>
+                    <div className="key"><img src={darkMode ? Right2 : Right1} alt="" /></div>
+                </div>
+                <p>Back forward</p>
+            </div>
+
+            <div className="shortcut-card">
+                <div className="shortcut-keys">
+                    <div className="key"><img src={darkMode ? Ctrl2 : Ctrl1}  alt="" /></div>
+                    <div className="plus">+</div>
+                    <div className="key"><img src={darkMode ? KeyF52 : KeyF5} alt="" /></div>
+                </div>
+                <p>Reload without cache (force refresh)</p>
+            </div>
+
+            <div className="shortcut-card">
+                <div className="shortcut-keys">
+                    <div className="key"><img src={darkMode ? Esc2 : Esc1}  alt="" /></div>
+                </div>
+                <p>Stop loading the page</p>
+            </div>
+
+            <div className="shortcut-card">
+                <div className="shortcut-keys">
+                    <div className="key"><img src={darkMode ? Ctrl2 : Ctrl1}  alt="" /></div>
+                    <div className="plus">+</div>
+                    <div className="key"><img src={darkMode ? LetterD2 : LetterD1} alt="" /></div>
+                </div>
+                <p>Bookmark the current page</p>
+            </div>
+
+            <div className="shortcut-card">
+                <div className="shortcut-keys">
+                    <div className="key"><img src={darkMode ? Ctrl2 : Ctrl2} alt="" /></div>
+                    <div className="plus">+</div>
+                    <div className="key"><img src={darkMode ? LetterH2 : LetterH1} alt="" /></div>
+                </div>
+                <p>Open the browsing history</p>
+            </div>
+
+            <div className="shortcut-card">
+                <div className="shortcut-keys">
+                    <div className="key"><img src={darkMode ? Ctrl2 : Ctrl1}  alt="" /></div>
+                    <div className="plus">+</div>
+                    <div className="key"><img src={darkMode ? LetterR2 : LetterR1} alt="" /></div>
                 </div>
                 <p>Refresh the active window</p>
             </div>
@@ -761,7 +985,7 @@ moving it to the Recycle Bin first</p>
                 <div className="shortcut-keys">
                     <div className="key"><img src={darkMode ? Ctrl2 : Ctrl1}  alt="" /></div>
                     <div className="plus">+</div>
-                    <div className="key"><img src={PlusMinus1} alt="" /></div>
+                    <div className="key"><img src={darkMode ? PlusMinus2 :PlusMinus1} alt="" /></div>
                 </div>
                 <p>Zoom in or out of a large NUMBER 
 of items, like apps pinned to the 
@@ -783,65 +1007,44 @@ zoom in or out of a large NUMBER of
 items, like apps pinned to the Start 
 screen</p>
           </div>
-            <div className="shortcut-card">
-                <div className="shortcut-keys">
-                    <div className="key"><img src={darkMode ? Ctrl2 : Ctrl1}  alt="" /></div>
-                    <div className="plus">+</div>
-                    <div className="key"><img src={darkMode ? Left2 : Left1} alt="" /></div>
-                </div>
-                <p>Move the cursor to the beginning of 
-the previous word</p>
-            </div>
 
             <div className="shortcut-card">
                 <div className="shortcut-keys">
                     <div className="key"><img src={darkMode ? Ctrl2 : Ctrl1}  alt="" /></div>
                     <div className="plus">+</div>
-                    <div className="key"><img src={darkMode ? Right2 : Right1} alt="" /></div>
+                    <div className="key"><img src={darkMode ? LetterJ2 : LetterJ1} alt="" /></div>
                 </div>
-                <p>Move the cursor to the beginning of 
-the next word</p>
+                <p>Open the downloads manager</p>
             </div>
-
+            
             <div className="shortcut-card">
                 <div className="shortcut-keys">
                     <div className="key"><img src={darkMode ? Ctrl2 : Ctrl1}  alt="" /></div>
                     <div className="plus">+</div>
-                    <div className="key"><img src={darkMode ? Up2 : Up1} alt="" /></div>
+                    <div className="key"><img src={darkMode ? LetterB2 : LetterB1} alt="" /></div>
                 </div>
-                <p>Move the cursor to the beginning of 
-the previous paragraph</p>
+                <p>Open the downloads manager</p>
             </div>
 
             <div className="shortcut-card">
                 <div className="shortcut-keys">
                     <div className="key"><img src={darkMode ? Ctrl2 : Ctrl1}  alt="" /></div>
                     <div className="plus">+</div>
-                    <div className="key"><img src={darkMode ? Down2 : Down1} alt="" /></div>
+                    <div className="key"><img src={darkMode ? LetterL2 :LetterL2} alt="" /></div>
                 </div>
-                <p>Move the cursor to the beginning of 
-the next paragraph</p>
+                <p>Focus the address bar</p>
             </div>
 
+            
             <div className="shortcut-card">
                 <div className="shortcut-keys">
-                    <div className="key"><img src={darkMode ? Shift2 : Shift1}  alt="" /></div>
+                    <div className="key"><img src={darkMode ? Ctrl2 : Ctrl1}  alt="" /></div>
                     <div className="plus">+</div>
-                    <div className="key"><img src={darkMode ? KeyF102 : KeyF10} alt="" /></div>
+                    <div className="key"><img src={darkMode ? LetterF2 : LetterF1} alt="" /></div>
                 </div>
-                <p>Display the shortcut menu for the 
-selected item</p>
-            </div>
-
-            <div className="shortcut-card">
-                <div className="shortcut-keys">
-                    <div className="key"><img src={darkMode ? Shift2 : Shift1}  alt="" /></div>
-                    <div className="plus">+</div>
-                    <div className="key"><img src={darkMode ? Arrow2 : Arrow1}  alt="" /></div>
-                </div>
-                <p>Select more than one item in a 
-window or on the desktop, or select 
-text within a document</p>
+                <p>Open the downloads manager
+Focus the address bar
+</p>
             </div>
         </div>
       </div>
