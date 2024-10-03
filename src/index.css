@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+:root {
+  /* ========= colors ========= */
+  /* Colors mode HSL(hue, saturation, lightness */
+  --body-color: #ffffff;
+  --background-color: #212529;
+  --text-color: #000000;
+
+  /* Dark mode color */
+  --body-color-dark: #212529;
+  --background-color-dark: #ffffff;
+  --background-box-dark: #181818;
+  --text-color-dark: #ffffff;
+
+  /* ========= Font and typography ========= */
+  /* .5rem= 8px | 1rem = 16px */
+  --body-font: "Chakra Petch", sans-serif;
+  --h1-font-size: 2rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
+
+  /* ========= Font weight =========*/
+  --font-regular: 300;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* ========= Box shadow =========*/
+  --shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+  --shadow-dark: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+
+  --border: #212529; /* opacity 20% */
+  --border: #1e1e1e; /* opacity 67% */
+
+  /* ========= Border Redius =========*/
+  --border-radius: 10px;
+  --border-radius-2: 6px;
+}
+
+/* Light Mode Variables */
+:root {
+  --body-color: #ffffff;
+  --background-color: #212529;
+  --text-color: #000000;
+}
+
+/* Dark Mode Variables */
+:root.dark-mode {
+  --body-color: var(--body-color-dark);
+  --background-color: var(--background-color-dark);
+  --text-color: var(--text-color-dark);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Dark Mode Container Styling */
+.dark-mode {
+  background-color: var(--body-color-dark);
+  color: var(--text-color-dark);
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode p {
+  color: var(--text-color-dark);
+}
+
+/* Theme Switcher Icon */
+.theme-switcher {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.theme-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.shortcut-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: ;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* ========= Base =========*/
+
+/* Responsive typography */
+@media screen and (max-width: 1024px) {
+  :root {
+    --h1-font-size: 1.75rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+  font-size: var(--normal-font-size);
+  font-family: var(--body-font);
+}
+
+body {
+  background-color: var(--body-color);
+  line-height: 1.7;
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--title-color);
+  font-weight: var(--font-semibold);
+  line-height: 1.2;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+/* ========= FResuable css classes =========*/
