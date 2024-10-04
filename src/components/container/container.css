@@ -81,7 +81,7 @@ nav ul li a {
 .sidebar {
   position: fixed;
   top: -30px;
-  right: -500px;
+  right: -900px;
   display: block;
   width: 300px;
   height: 100vh;
