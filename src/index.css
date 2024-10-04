@@ -67,18 +67,72 @@ body {
   color: var(--text-color-dark);
 }
 
+.dark-mode .dark-mode-toggle {
+  background-color: var(--background-color);
+  color: var(--title-color);
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
 .dark-mode h1,
 .dark-mode h2,
 .dark-mode p {
   color: var(--text-color-dark);
 }
+.dark-mode .menu {
+  background-color: var(--background-color-dark);
+}
 
+.dark-mode .menu ul li a {
+  color: var(--background-color);
+  font-weight: 500;
+}
 /* Theme Switcher Icon */
 .theme-switcher {
   position: fixed;
   top: 20px;
   right: 20px;
   cursor: pointer;
+}
+
+.dark-mode .button {
+  margin: 20px 0;
+  align-items: center;
+  background-color: var(--background-box-dark);
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-weight: var(--font-medium);
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.dark-mode .button:after {
+  background-color: #ffffff;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -1px;
+  transform: translate(5px, 5px);
+  transition: transform 0.2s ease-out;
+  z-index: -1;
 }
 
 .theme-icon {
@@ -160,5 +214,3 @@ img {
   height: auto;
   vertical-align: middle;
 }
-
-/* ========= FResuable css classes =========*/
