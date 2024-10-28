@@ -135,6 +135,13 @@ body {
   z-index: -1;
 }
 
+.dark-mode .btn {
+  color: var(--background-box-dark);
+}
+
+.dark-mode .btn.active {
+  color: var(--background-color-dark);
+}
 .theme-icon {
   width: 30px;
   height: 30px;

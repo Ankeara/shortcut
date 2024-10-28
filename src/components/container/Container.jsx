@@ -88,6 +88,7 @@ import Mousecursor1 from '../../assets/images/mouse-cursor.png'
 import Mousecursor2 from '../../assets/images/mouse-cursor (1).png'
 import PlusMinus1 from '../../assets/images/plus-and-minus.png'
 import PlusMinus2 from '../../assets/images/plus-and-minus (1).png'
+import { Kbd } from '@chakra-ui/react'
 // import KeyFn from '../../assets/images/fn.png'
 // import KeyFn2 from '../../assets/images/fn (1).png'
 // import Leftclick1 from '../../assets/images/left-click.png'
@@ -194,6 +195,7 @@ const Container = () => {
                 <p>
                     Shortcuts are easy to use and save you time. Using shortcuts is faster than using a mouse or keyboard one by one.
                 </p>
+                
                 </div>
 
                 <div className="button-group">
@@ -733,7 +735,7 @@ const Container = () => {
                                 <div className="shortcut-keys">
                                     <div className="key"><img src={darkMode ? Window2 : Window1}  alt="" /></div>
                                     <div className="plus">+</div>
-                                    <div className="key"><img src={darkMode ? LetterP2 :LetterP2} alt="" /></div>
+                                    <div className="key"><img src={darkMode ? LetterP2 :LetterP1} alt="" /></div>
                                 </div>
                                 <p>Choose a presentation display mode</p>
                             </div>
